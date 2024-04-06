@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title es el titulo de la pagina -->
+    <title>Contactanos</title>
+    <!-- link cambia el icono -->
+    <link rel="icon" href="C:\Users\anita\Downloads\images.ico">
+    <link rel="stylesheet" href="estlo.CSS">
+</head>
+<body>
+   <heder>
+     <!-- imagen  -->
+     <p><img src="img/269910958_451577850003644_2161537816720245290_n.jpg" alt="Eco Bicis" width="100" height="100"> </p>
+    <!-- genera un titulo dentro del header -->
+    <b><h2>Contactate con Eco bicis</h2></b>
+     <!-- imagen con hipervinculo relacionada -->
+     <a href="https://www.posadas.gov.ar/" target="_blank"><img src="img/logo_oficial.png" alt="Posadas"></a>
+     <hr>
+   </heder>
+   <main>
+    <!-- form genera un formulario -->
+    <form action= "https://formspree.io/f/mqkryljq" method="POST" >
+        <!-- label detalla el nombre  -->
+       <br>
+        <label for="nombre">Nombre</label>
+            <!-- name e id hace referencia a que nombre refiere el input, place holder escribe en el cuadro la sugerencia-->
+        <input type="text" placeholder="Ingrese aqui su nombre..." name="Nombre" id="Nombre">
+        <br>
+        <label for="dni">Dni</label>
+        <input type="^[\d]{1,3}\.?[\d]{3,3}\.?[\d]{3,3}$" placeholder="ejemplo:12345678" name="Dni" id="Dni">
+        <br>
+        <label for="TextoGrande"></label>
+            <!-- size indica el tamaño de la caja de texto -->
+        <textarea name="TextoGrande" id="TextoGrande" cols="30" rows="10">Ingrese su consulta...</textarea>
+        <br>
+        <input type="submit">
+    </form>
+   </main>
+   <footer>
+       <!-- h1 indica tamaño de importancia, b es negrita -->
+       <marquee behavior="" direction="">Gracias por tu visita virtual a la Ecobici</marquee>
+
+       <!-- footer es el pie de pagina, small hace al texto mas pequeño -->
+       <b><small>Te invitamos a visitar nuestras redes sociales</small></b>
+       <!-- estilos, alineacion y colores se hace en ccs -->
+        <b>
+       <!-- para que puedan contactarse por correo electronico -->
+        <a href="mailto:anitamedina3813@gmail.com">Para contactarte con nosotros presiona aqui</a></b>
+
+   </footer>
+</body>
+</html>

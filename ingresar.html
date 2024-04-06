@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+    <link rel="stylesheet" href="estlo.CSS">
+</head>
+<body>
+    <heder>
+        <!-- genera un titulo dentro del header -->
+        <h1><P>Ingresar </P></h1>
+        <b>Opción válida solamente para personal autorizado</b>
+        <hr>
+       </heder>
+        <main>
+            <!-- form genera un formulario -->
+         <form action="">
+        <!-- label detalla el nombre  -->
+        <br>
+        <label for="nombre y apellido">Nombre y Apellido</label>
+            <!-- name e id hace referencia a que nombre refiere el input, place holder escribe en el cuadro la sugerencia-->
+        <input type="text" size="25" placeholder="Ingrese aqui su nombre y apellido..." name="Nombre y Apellido" id="Nombre y Apellido">
+       <br>
+        <label for="contraseña">Contraseña</label>
+            <!-- el atributo ^[\d]{1,3}\.?[\d]{3,3}\.?[\d]{3,3}$ son los espacios necesarios para el din argentino -->
+        <input type="password" name="contraseña" id="contraseña" placeholder="contraseña">
+        <!-- submit es el boton de enviar -->
+        <br>
+        <a href="contraseña.HTML" target="_blank">¿Olvidó su contraseña?</a>
+        <input type="submit">
+       </main>
+       <hr>
+       <footer>
+    
+       </footer>
+</body>
+</html>
